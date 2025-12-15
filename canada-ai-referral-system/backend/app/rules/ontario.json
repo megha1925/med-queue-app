@@ -1,0 +1,16 @@
+{
+  "critical_rules": [
+    {
+      "pattern": "stroke|sudden weakness|facial droop",
+      "urgency": "Critical",
+      "action": "immediate"
+    }
+  ],
+  "urgent_rules": [
+    {
+      "pattern": "suspected cancer|mass|unexplained weight loss",
+      "urgency": "Urgent"
+    }
+  ],
+  "notes": "Ontario-specific example rules. Replace with validated clinical guidance."
+}
