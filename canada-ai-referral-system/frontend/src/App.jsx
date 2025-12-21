@@ -1,10 +1,14 @@
-import React from 'react'
+import React from "react";
+import ReferralList from "./components/ReferralList";
+import Dashboard from "./components/Dashboard";
 
-export default function App(){
+export default function App() {
   return (
-    <div style={{padding:20}}>
+    <div style={{ padding: 20, maxWidth: 980, margin: "0 auto" }}>
       <h1>Canada AI Referral System (Frontend)</h1>
-      <p>Prototype UI. Implement components under src/components.</p>
+      <p>Prototype UI. Example responsive component below.</p>
+
+      <Dashboard />
     </div>
-  )
+  );
 }

@@ -1,0 +1,22 @@
+.ds-container{padding:18px;max-width:1100px;margin:0 auto}
+.ds-trends{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.ds-trend{flex:1 1 180px;background:linear-gradient(135deg,#fff,#f7fbff);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(12,30,60,0.06)}
+.ds-trend h4{margin:0 0 6px 0;font-size:0.95rem}
+.ds-trend .value{font-size:1.4rem;font-weight:700}
+.ds-card{background:#fff;border-radius:12px;padding:12px;box-shadow:0 8px 24px rgba(0,0,0,0.06)}
+.ds-table{width:100%;border-collapse:collapse;margin-top:8px}
+.ds-table th,.ds-table td{padding:10px 8px;text-align:left;border-bottom:1px solid #f0f4f8}
+.ds-table tr{cursor:pointer}
+.ds-table tr:hover{background:#f6fbff}
+.ds-badge{display:inline-block;padding:6px 8px;border-radius:999px;font-size:0.8rem;background:#eef6ff;color:#034}
+
+/* Modal styles */
+.ds-modal-overlay{position:fixed;inset:0;background:rgba(5,10,20,0.45);display:flex;align-items:center;justify-content:center;z-index:2000}
+.ds-modal{background:#fff;border-radius:10px;width:min(720px,95%);max-height:90vh;overflow:auto;box-shadow:0 20px 60px rgba(0,0,0,0.25)}
+.ds-modal-header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid #eef3f9}
+.ds-modal-body{padding:16px}
+.ds-close{border:0;background:transparent;font-size:1.1rem;cursor:pointer}
+
+@media (max-width:520px){
+  .ds-trends{flex-direction:column}
+}
